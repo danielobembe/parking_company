@@ -1,0 +1,19 @@
+{
+  "name": "parking_company",
+  "version": "1.0.0",
+  "description": "Web presence for Louisville based parking-facility management company",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Website",
+    "Parking",
+    "Louisville"
+  ],
+  "author": "Daniel Obembe",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}

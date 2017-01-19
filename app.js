@@ -25,6 +25,10 @@ app.get('/services.html', function(req, res) {
   res.sendFile(path.join(__dirname + '/services.html'));
 });
 
+app.get('/template', function(req, res) {
+  res.sendFile(path.join(__dirname + '/template_1.html'));
+})
+
 app.listen(app.get('port'), function() {
   console.log('Node application is listening on port ',
   app.get('port'));

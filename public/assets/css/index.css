@@ -105,6 +105,21 @@ html,body {
     border: 0
 }
 
+#main-header .navbar-tiny .navbar-header .navbar-brand h1 {
+  font-family:  'din-regular','Helvetica Neue',Helvetica,Arial,sans-serif;
+  /*font-size: 15pt;*/
+  font-size: 22px;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  position: absolute;
+  margin-top:5px;
+  top:0;
+  left:20px;
+  border-left: solid;
+  padding-left: 3px;
+}
+
 #main-header .navbar-clean {
     background: 0 0
 }
@@ -438,7 +453,8 @@ html,body {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    /*margin-top: 40px;*/
     bottom: 0;
     width: 100%;
     height: 4%;
@@ -984,4 +1000,30 @@ footer {
     .navbar-nav .open .dropdown-menu>li>a:focus,.navbar-nav .open .dropdown-menu>li>a:hover {
         background-image: none
     }
+}
+
+
+.row-alt {
+  height:260px;
+  /*min-width: 960px;*/
+  background: #cbe2c1;
+  background: -webkit-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:    -moz-linear-gradient(to right, #a1d3b0, #f6f1d3);
+  background:         linear-gradient(to right, #a1d3b0, #f6f1d3);
+  padding: 44px 0 22px 0;
+}.row-alt-extra{height:500px;}
+
+.main-content {
+  padding-bottom: 10px;
+}
+
+.services-content{
+  height: 600px;
+  text-align: justify;
+  padding: 5%;
+  overflow: hidden;
+  overflow-y: scroll;
+}.services-content h1 {
+  margin-top: 0;
+  margin-bottom: 40px;
 }

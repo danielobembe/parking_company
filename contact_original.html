@@ -8,13 +8,12 @@
       <title>Parking Company</title>
       <!-- Bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/raw_style.css">
-      <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
+      <link rel="stylesheet" href="assets/css/index.css">
   </head>
-  <body>
+  <body class="relative-body">
         <!-- Header -->
         <header id="main-header">
-            <div class="navbar navbar-default navbar-fat navbar-clean" style="opacity: 1; top: 0px;">
+            <div class="navbar navbar-default navbar-tiny navbar-dark" style="opacity: 1; top: 0px;">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -127,23 +126,13 @@
                     </div>
                 </div>
             </div>
+
+
         </header>
         <!-- Content -->
-
-        <div class="cover half-window">
-          <div class="cover-image" data-background="assets/images/contact.jpg" style="background-image:url('assets/images/contact.jpg');opacity:1;">
-          </div>
-          <div id="particles-fullwin-wrapper">
-            <!-- Fill in particles here -->
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2>
-                  <small><a href="/">Home</a></small>
-                  Contact Us
-                </h2>
-              </div>
+        <div>
+          <div class="jumbotron row-alt" id="jumbotron-contacts">
+            <div class="container">
             </div>
           </div>
         </div>
@@ -151,79 +140,74 @@
 
         <div class="main-content">
 
-          <div class="sticky-wrapper">
-            <div id="breadcrumb-tools">
-              <div class="hidden-xs col-sm-12">
-                <ol class="breadcrumb">
-                  <li><a href="/">Home</a></li>
-                  <li class="active"><a>Contact Us</a></li>
-                </ol>
-              </div>
-            </div>
-          </div>
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">Contacts</li>
+          </ol>
 
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <div class="services-content contact-form text-center" >
+                <h3>Contact Us:</h3>
 
+                <p>
+                  <a href="#-to-map">Address</a> <br />
+                  <a href="mailto:info@theparkingcompany.com">
+                    <strong>info@theparkingcompany.com</strong>
+                  </a><br />
+                  <a>+23 334 3411</a>
+                </p>
 
+                <p>
+                  Are you interested in receiving more information about TheParkingCompany's services?<br />
+                  Please fill out the form below and we would contact you shortly.
+                </p>
 
-          <div class="container">
-            <section class="row">
-              <div class="col-md-8 col-md-offset-2">
-                <div class="content text-center">
-                  <h3 style="margin-bottom:30px">Information</h3>
+                <form class="form-horizontal" id="contact-form" action="#/">
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="text" class="form-control" id="telephone" name="telephone" placeholder="Telephone Number" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" />
+                    </div>
+                  </div>
+
+                  <div class="form-group">
+                    <div class="col-sm-12">
+                      <textarea class="form-control" id="message" name="message" placeholder="Message" style="overflow:hidden;word-wrap:break-word;resize:horizontal;height:82px;"></textarea>
+                    </div>
+                  </div>
+
                   <p>
-                    <a href="mailto:gerbe.dembe@theparkingcompany.com">gerbe.dembe@theparkingcompany.com</a>
+                    <br /><button type="submit" id="submit-btn" name="submit-btn" class="btn btn-primary btn-block">Send</button>
                   </p>
-                  <p>
-                    If you have any queries, or would like to get in touch.
-                    <br />
-                    Please fill the form and you would be contacted shortly.
-                  </p>
-                  <form class="form-horizontal" id="contact-form" action="">
-                    <div class="form-group">
-                      <div class="col-sm-12">
-                        <input type="text" class="form-control" id="first-name" name="first-name" placeholder="First Name" />
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-12">
-                        <input type="text" class="form-control" id="last-name" name="last-name" placeholder="Last Name" />
-                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-12">
-                        <input type="text" class="form-control" id="telephone" name="telephon" placeholder="Phone Number" />                      </div>
-                    </div>
-                    <div class="form-group">
-                      <div class="col-sm-12">
-                        <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" />
-                      </div>
-                    </div>
-                    <p>
-                      <br />
-                      <button type="submit" id="submit-btn" name="submit-btn" class="btn btn-primary btn-block">Send</button>
-                    </p>
-                  </form>
-                </div>
-
-              </div>
-            </section>
-          </div>
+                </form>
 
               </div> <!--- services-content -->
             </div> <!-- col -->
           </div><!-- row -->
         </div> <!--main content -->
         <!-- Footer -->
-        <footer id="main-footer">
-          <div class="container">
-            <section class="row">
-              <div class="col-sm-12">
-                <!-- <div > -->
-                  <p>© 2016, The Parking Company.</p>
-                <!-- </div> -->
-              </div>
-            </section>
-          </div>
+        <footer>
+          © 2016, The Parking Company.
+          <!-- <a target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> -->
         </footer>
         <!-- Scripts -->
         <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->

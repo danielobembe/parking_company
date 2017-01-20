@@ -8,13 +8,12 @@
       <title>Parking Company</title>
       <!-- Bootstrap -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-      <link rel="stylesheet" href="assets/css/raw_style.css">
-      <!-- <link rel="stylesheet" href="assets/css/index.css"> -->
+      <link rel="stylesheet" href="assets/css/index.css">
   </head>
-  <body>
+  <body class="relative-body">
         <!-- Header -->
         <header id="main-header">
-            <div class="navbar navbar-default navbar-fat navbar-clean" style="opacity: 1; top: 0px;">
+            <div class="navbar navbar-default navbar-tiny navbar-dark" style="opacity: 1; top: 0px;">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -127,49 +126,27 @@
                     </div>
                 </div>
             </div>
+
+
         </header>
         <!-- Content -->
-
-        <!-- <div>
+        <div>
           <div class="jumbotron row-alt" id="jumbotron-about">
             <div class="container">
             </div>
           </div>
-        </div> -->
-
-        <div class="cover half-window">
-          <div class="cover-image" data-background="assets/images/about.jpg" style="background-image:url('assets/images/about.jpg');opacity:1;">
-          </div>
-          <div id="particles-fullwin-wrapper">
-            <!-- Fill in particles here -->
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-sm-12">
-                <h2>
-                  <small><a href="/">Home</a></small>
-                  About Us
-                </h2>
-              </div>
-            </div>
-          </div>
         </div>
+
 
         <div class="main-content">
 
-          <div class="sticky-wrapper">
-            <div id="breadcrumb-tools">
-              <div class="hidden-xs col-sm-12">
-                <ol class="breadcrumb">
-                  <li><a href="#">Home</a></li>
-                  <li class="active"><a>About Us</a></li>
-                </ol>
-              </div>
-            </div>
-          </div>
+          <ol class="breadcrumb">
+            <li><a href="#">Home</a></li>
+            <li class="active">About</li>
+          </ol>
 
           <div class="row">
-            <div class="col-md-8" style="text-align:justify;">
+            <div class="col-md-8">
               <div class="services-content" data-spy="scroll" data-target="#navbar-example" >
                 <h1 id="company-profile">Company Profile</h1>
                 <p>
@@ -236,16 +213,9 @@
           </div>
         </div>
         <!-- Footer -->
-        <footer id="main-footer">
-          <div class="container">
-            <section class="row">
-              <div class="col-sm-12">
-                <!-- <div > -->
-                  <p>© 2016, The Parking Company.</p>
-                <!-- </div> -->
-              </div>
-            </section>
-          </div>
+        <footer>
+          © 2016, The Parking Company.
+          <!-- <a target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a> -->
         </footer>
         <!-- Scripts -->
         <!-- <script src="bower_components/jquery/dist/jquery.min.js"></script> -->

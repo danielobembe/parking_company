@@ -1003,6 +1003,11 @@ footer {
 }
 
 
+/* Custom Code */
+.relative-body{
+  position: relative;
+}
+
 .row-alt {
   height:260px;
   /*min-width: 960px;*/
@@ -1018,6 +1023,7 @@ footer {
 }
 
 .services-content{
+  position:relative;
   height: 600px;
   text-align: justify;
   padding: 5%;
@@ -1026,4 +1032,9 @@ footer {
 }.services-content h1 {
   margin-top: 0;
   margin-bottom: 40px;
+}.contact-form {
+  width: 80%;
+  height: 100%;
+  /*background-color: grey;*/
+  margin: 0 auto;
 }

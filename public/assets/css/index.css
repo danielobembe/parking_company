@@ -381,7 +381,9 @@ html,body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-image: url("/assets/images/garage_1.jpg");
+    /*Use landing_page 3 or 1*/
+    background-image: url("/assets/images/landing_page_1.jpg");
+    filter: brightness(90%);
     opacity: 0.95;
     -webkit-transition: opacity .4s;
     -o-transition: opacity .4s;
@@ -420,8 +422,11 @@ html,body {
 
 .cover h2 small {
     display: block;
-    font-size: 12px;
+    font-size: 14px;
+    font-family: 'din-regular','Helvetica Neue',Helvetica,Arial,sans-serif;
+    /*font-weight: bold;*/
     color: #fff;
+    /*color: black;*/
     letter-spacing: 3px;
     text-transform: uppercase
 }
